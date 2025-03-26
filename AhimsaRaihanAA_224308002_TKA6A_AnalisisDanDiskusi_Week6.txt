@@ -1,0 +1,22 @@
+Nama: Ahimsa Raihan A. A.
+NIM: 224308002
+Kelas: TKA 6A
+
+
+Pada percobaan minggu ke-6, dilakukan deteksi jalur rel menggunakan metode Canny Edge 
+Detection dan Instance Segmentation. Metode ini digunakan untuk mendeteksi dan memisahkan jalur 
+rel dari lingkungan sekitarnya guna meningkatkan akurasi dalam sistem pemantauan otomatis. 
+Percobaan ini mencakup tiga skenario, yaitu deteksi jalur rel pada gambar statis, video, dan secara 
+real-time. 
+Hasil percobaan menunjukkan bahwa kombinasi Canny Edge Detection dan Instance 
+Segmentation memberikan hasil deteksi yang akurat dan efektif. Canny Edge Detection berperan dalam 
+menangkap tepi jalur rel dengan cepat, sementara Instance Segmentation memungkinkan segmentasi 
+yang lebih presisi dengan mempertimbangkan informasi tekstur dan spasial. Keunggulan utama dari 
+pendekatan ini adalah kemampuannya dalam mendeteksi jalur rel dalam berbagai kondisi pencahayaan 
+dan lingkungan. 
+Namun, terdapat tantangan dalam kondisi pencahayaan rendah dan adanya objek pengganggu 
+seperti bayangan atau hambatan di sekitar jalur rel. Canny Edge Detection dapat menghasilkan tepi yang 
+terputus-putus jika terdapat noise atau pencahayaan yang kurang, sementara Instance Segmentation 
+dapat mengalami kesulitan dalam membedakan jalur rel dari latar belakang dengan tekstur kompleks. 
+Oleh karena itu, diperlukan optimasi tambahan seperti preprocessing gambar dan penggunaan model 
+segmentasi yang lebih canggih untuk meningkatkan akurasi deteksi dalam kondisi yang lebih menantang.
